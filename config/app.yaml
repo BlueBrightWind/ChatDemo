@@ -1,0 +1,23 @@
+MySQL:
+  Name: "root"
+  Password: "123456"
+  Host: "127.0.0.1"
+  Port: 3306
+  Database: "ginchat"
+  Charset: "utf8mb4"
+
+Redis:
+  Host: "127.0.0.1"
+  Port: 6379
+  Password: ""
+  DB: 0
+  PoolSize: 30
+  MinIdleConn: 30
+
+Socket:
+  HeartbeatInterval: 1     #每隔多少秒心跳时间(秒)
+  HeartbeatMaxTime: 5   #最大心跳时间, 超过此就下线(秒)
+
+port:
+  server: ":8082"
+  udp: 3001
